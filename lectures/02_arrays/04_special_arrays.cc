@@ -39,7 +39,7 @@ int main() {
   int* d_ma = new int[6 * 5];
   delete[] d_ma;
 
-  char** argv = new char*[2];
+  char** argv = new char*[2]; // Arrey of strings == pointer to pointer to chars
   char f[] = {'.', '/', 'a', '.', 'o', 'u', 't', 0};
   char s[] = {'-', '-', 'h', 'e', 'l', 'p', 0};
 
